@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 100px; /* задайте нужную ширину */
+    height: 100px; /* задайте нужную высоту */
+    position: absolute;
+    left: 75px; /* x-координата */
+    top: 72px; /* y-координата */
+}
+.about {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    width: 100px; /* задайте нужную ширину */
+    height: 100px; /* задайте нужную высоту */
+    position: absolute;
+    left: 251px;
+    top: 99px;
+}
+.sequr {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    width: 200px; /* задайте нужную ширину */
+    height: 172px; /* задайте нужную высоту */
+    position: absolute;
+    left: 363px;
+    top: 35px;
+}
+.orange {
+    margin-left: 1310px;
+    margin-top: 99px;
+    width: 508px; /* задайте нужную ширину */
+    height: 903px; /* задайте нужную высоту */
+}
+.black {
+    margin-left: 228px;
+    margin-top: 401px;
+}
