@@ -8,33 +8,35 @@ body {
     height: 100px; /* задайте нужную высоту */
     position: absolute;
     left: 75px; /* x-координата */
-    top: 72px; /* y-координата */
+    top: 160px; /* y-координата */
 }
 .about {
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     width: 100px; /* задайте нужную ширину */
     height: 100px; /* задайте нужную высоту */
     position: absolute;
-    left: 251px;
-    top: 99px;
+    left: 620px;
+    top: 55px;
 }
 .sequr {
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     width: 200px; /* задайте нужную ширину */
     height: 172px; /* задайте нужную высоту */
     position: absolute;
-    left: 363px;
-    top: 35px;
+    left: 720px;
+    top: 55px;
 }
 .orange {
-    margin-left: 1310px;
-    margin-top: 99px;
+    margin-left: 1110px;
+    margin-top: 49px;
     width: 508px; /* задайте нужную ширину */
     height: 903px; /* задайте нужную высоту */
 }
 .black {
-    margin-left: 228px;
-    margin-top: 401px;
+    margin-left: 50px;
+    margin-top: -420px;
+    width: 995px; /* задайте нужную ширину */
+    height: 419px; /* задайте нужную высоту */
 }
