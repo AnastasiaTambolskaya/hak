@@ -2,53 +2,27 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
+    overflow-x: hidden
 }
+
 /* не перетаскивает*/
 img {
     pointer-events: none;
-    user-select:none
-  }
-  
+    user-select: none
+}
+
 .logo {
-    width: 100px; /* задайте нужную ширину */
-    height: 100px; /* задайте нужную высоту */
+    width: 100px;
+    /* задайте нужную ширину */
+    height: 100px;
+    /* задайте нужную высоту */
     position: absolute;
-    left: 75px; /* x-координата */
-    top: 160px; /* y-координата */
+    left: 75px;
+    /* x-координата */
+    top: 160px;
+    /* y-координата */
 }
 
-.about {
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: 24px;
-    position: absolute;
-    margin-top: -30px;
-    margin-left: 650px;
-    text-decoration: none;
-    color: black;
-    padding: 20px 0px;
-    line-height: 1;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease; 
-    
-    }
-
-    .about:hover{
-        color: #d76813; /* Меняем цвет текста */
-    }
-
-.about::after {
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: 24px;
-    position: absolute;
-    margin-top: -30px;
-    margin-left: 650px;
-    text-decoration: none;
-    color: black;
-    padding: 20px 0px;
-    line-height: 1;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease; 
-}
 .seq {
     position: absolute;
     display: inline-block;
@@ -67,14 +41,17 @@ img {
     padding: 20px 0px;
     line-height: 1;
     -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease;
     border: none;
     height: 10px;
-    
+
 }
+
 .seqbtn:hover {
-    color: #d76813  ; /* Меняем цвет текста */
+    color: #d76813;
+    /* Меняем цвет текста */
 }
+
 .seq::after {
     margin-left: 750px;
     margin-top: -30px;
@@ -86,9 +63,10 @@ img {
     border-radius: 30px;
     background-color: #d9d1d1e2;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    top: 40px; /* Разместить категории под кнопкой */
+    top: 40px;
+    /* Разместить категории под кнопкой */
     left: 0;
 }
 
@@ -103,7 +81,7 @@ img {
     background-color: rgb(214, 202, 190);
     border-radius: 30px;
     box-shadow: 0px 8px 16px 0px rgba(53, 40, 28, 0.389);
-    
+
 }
 
 .seq:hover .seq-content {
@@ -117,23 +95,30 @@ img {
 .orange {
     margin-left: 1110px;
     margin-top: 49px;
-    width: 508px; /* задайте нужную ширину */
-    height: 903px; /* задайте нужную высоту */
+    width: 508px;
+    /* задайте нужную ширину */
+    height: 903px;
+    /* задайте нужную высоту */
 }
+
 .black {
     position: relative;
     margin-left: 50px;
     margin-top: -420px;
-    width: 995px; /* задайте нужную ширину */
-    height: 419px; /* задайте нужную высоту */
+    width: 995px;
+    /* задайте нужную ширину */
+    height: 419px;
+    /* задайте нужную высоту */
 }
+
 .container {
     margin-left: -100px;
     margin-top: 100px;
 }
+
 #text1 {
     position: absolute;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Jura', sans-serif;
     font-size: 48px;
     width: 560px;
     height: 378px;
@@ -142,18 +127,21 @@ img {
     margin-left: 316px;
     color: white;
 }
+
 #group1 {
     margin-top: 130px;
     margin-left: 252px;
     width: 709px;
     height: 466px;
-    
+
 }
+
 #gazeta {
-   margin-top: -660px;
-   margin-left: 0px;
-   
+    margin-top: -660px;
+    margin-left: 0px;
+
 }
+
 #question {
     position: absolute;
     width: 634px;
@@ -162,16 +150,113 @@ img {
     margin-top: -529px;
 
 }
-#text2 {
+
+#text2_1 {
+    font-weight: bold;
     position: absolute;
-    font-family: 'Dela Gothic One', sans-serif;
+    font-family: 'Jura', sans-serif;
     text-transform: uppercase;
-    font-size: 48px;
-    width: 1766px;
-    height: 57px;
+    font-size: 36px;
+    width: 1720px;
+    height: 157px;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 0px;
-    margin-right: 105px;
+    margin-top: 20px;
+    margin-left: -2px;
+    margin-right: 252px;
+    color: black;
+}
+
+#text2_2 {
+    font-weight: bold;
+    position: absolute;
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    width: 1720px;
+    height: 157px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: -2px;
+    margin-right: 252px;
+    color: black;
+}
+
+#text2_3 {
+    font-weight: bold;
+    position: absolute;
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    width: 1720px;
+    height: 157px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: -2px;
+    margin-right: 252px;
+    color: black;
+}
+
+#text2_4 {
+    font-weight: bold;
+    position: absolute;
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    width: 1720px;
+    height: 157px;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: -2px;
+    margin-right: 252px;
+    color: black;
+}
+
+#orangespeed {
+    position: absolute;
+    z-index: 1;
+    margin-top: 420px;
+    margin-left: 50px;
+}
+
+#cameras1 {
+    position: absolute;
+    margin-top: 250px;
+
+}
+
+#groupwithtext2 {
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 420px;
+}
+
+#cameras3 {
+    position: absolute;
+    margin-top: 1050px;
+}
+
+#text3 {
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 750px;
+}
+
+#icon {
+    position: absolute;
+    margin-top: 2240px;
+    margin-left: 300px;
+}
+
+#text4_1 {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Jura', sans-serif;
+    font-size: 94px;
+    width: 1720px;
+    height: 300px;
+    text-align: center;
+    margin-top: 2330px;
+    margin-left: 150px;
+    margin-right: 252px;
     color: black;
 }
