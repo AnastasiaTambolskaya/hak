@@ -12,7 +12,7 @@ let isSecondFloor = false;
 let isThirdFloor = false;
 // Скрываем кнопку arrowLeft изначально
 arrowLeftButton.style.display = 'none';
-firstFloor.style.transform = 'translate(148%, 0%)';
+firstFloor.style.transform = 'translate(140%, 0%)';
 secondFloor.style.display = 'none';
 thirdFloor.style.display = 'none';
 // Добавляем обработчик события на кнопку arrowright

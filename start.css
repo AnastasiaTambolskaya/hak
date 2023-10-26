@@ -6,6 +6,7 @@ body {
 /* не перетаскивает*/
 img {
     pointer-events: none;
+    user-select:none
   }
   
 .logo {
@@ -24,32 +25,55 @@ img {
     margin-left: 650px;
     text-decoration: none;
     color: black;
-}
+    padding: 20px 0px;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    
+    }
+
+    .about:hover{
+        color: #d76813; /* Меняем цвет текста */
+    }
+
 .about::after {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 24px;
+    position: absolute;
     margin-top: -30px;
     margin-left: 650px;
     text-decoration: none;
     color: black;
+    padding: 20px 0px;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
 }
 .seq {
     position: absolute;
     display: inline-block;
     font-family: 'Didact Gothic', sans-serif;
-    
     height: 200px;
     margin-left: 750px;
-    margin-top: -30px;
+    margin-top: -11px;
+    cursor: pointer;
 }
 
 .seqbtn {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 24px;
     background-color: #ffffff00;
-
-    color: rgb(0, 0, 0);
+    color: black;
+    padding: 20px 0px;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
     border: none;
     height: 10px;
     
+}
+.seqbtn:hover {
+    color: #d76813  ; /* Меняем цвет текста */
 }
 .seq::after {
     margin-left: 750px;
